@@ -1,0 +1,15 @@
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --color $*
+
+pwd=cd
+
+rm=rm -i $*
+cd=cd /d $*
+ll= ls -al $a
+
+got=echo "Command: git... Learn writing bro !"&&git $*
+hiy=got
+hoy=got
+hot=got
+hit=got
