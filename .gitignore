@@ -1,6 +1,8 @@
-Cmder.exe
-*120.dll
-Readme.md
+/Cmder.exe
+/*.dll
+/Readme.md
+
+bin/alias.bat
 
 config/.history
 config/git.lua
