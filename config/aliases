@@ -7,6 +7,7 @@ pwd=cd
 rm=rm -i $*
 cd=cd /d $*
 ll= ls -al $a
+clear=cls
 
 got=echo "Command: git... Learn writing bro !"&&git $*
 hiy=got
