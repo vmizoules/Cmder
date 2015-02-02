@@ -3,14 +3,20 @@ gl=git log --oneline --all --graph --decorate  $*
 ls=ls --color $*
 
 pwd=cd
+ifconfig=ipconfig
 
 rm=rm -i $*
 cd=cd /d $*
 ll= ls -al $a
 clear=cls
 
-got=echo "Command: git... Learn writing bro !"&&git $*
-hiy=got
-hoy=got
-hot=got
-hit=got
+got=echo Command: git... Learn writing bro ! && git $*
+hiy=echo Command: git... Learn writing bro ! && git $*
+hoy=echo Command: git... Learn writing bro ! && git $*
+hot=echo Command: git... Learn writing bro ! && git $*
+hit=echo Command: git... Learn writing bro ! && git $*
+
+localdev=cd /d "P:\Vagrant\local.dev\" && vagrant up && cd /d "P:\Sites\local.dev\" && echo. && echo ----------------------- && echo ls : && ls
+vincedev=cd /d "P:\Vagrant\local.dev\" && vagrant up && cd /d "P:\Sites\vince.dev\" && echo. && echo ----------------------- && echo ls : && ls
+vagssh=cd /d "P:\Vagrant\local.dev\"  && vagrant up && vagrant ssh
+
