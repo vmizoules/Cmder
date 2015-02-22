@@ -10,6 +10,8 @@ cd=cd /d $*
 ll= ls -al $a
 clear=cls
 
+halt=shutdown -s -f -t $*
+
 got=echo Command: git... Learn writing bro ! && git $*
 hiy=echo Command: git... Learn writing bro ! && git $*
 hoy=echo Command: git... Learn writing bro ! && git $*
@@ -20,3 +22,4 @@ localdev=cd /d "P:\Vagrant\local.dev\" && vagrant up && cd /d "P:\Sites\local.de
 vincedev=cd /d "P:\Vagrant\local.dev\" && vagrant up && cd /d "P:\Sites\vince.dev\" && echo. && echo ----------------------- && echo ls : && ls
 vagssh=cd /d "P:\Vagrant\local.dev\"  && vagrant up && vagrant ssh
 
+isima=ssh vimizoules1@fc.isima.fr
