@@ -4,6 +4,7 @@
 /Contributing.md
 
 bin/alias.bat
+bin/isima.bat
 
 config/.history
 config/git.lua
