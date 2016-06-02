@@ -1,6 +1,7 @@
 /Cmder.exe
 /*.dll
 /Readme.md
+/Contributing.md
 
 bin/alias.bat
 
