@@ -6,6 +6,9 @@
 
 icons/
 
+bin/alias.bat
+bin/Readme.md
+
 config/.history
 config/git.lua
 config/prompt.lua
