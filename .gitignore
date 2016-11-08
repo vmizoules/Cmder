@@ -2,9 +2,12 @@
 /*.dll
 /Readme.md
 /Contributing.md
+/CHANGELOG.md
 
 bin/alias.bat
 bin/isima.bat
+
+icons/
 
 config/.history
 config/git.lua
